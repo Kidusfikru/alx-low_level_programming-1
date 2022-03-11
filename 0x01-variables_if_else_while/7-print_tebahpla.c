@@ -2,17 +2,18 @@
 
 /**
   * main - prints lowercase alphabet in reverse
-  *  
+  * 
   * Return: zero
   */
 
-int main (void)
+int main(void)
 {
-	char ch = 'z'
-	for ( ch= 'z'; ch >= 'a'; ch--)
+	char ch = 'z';
+
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
 		putchar(ch);
 	}
 	putchar('\n');
-  return (0);
+	return (0);
 }
