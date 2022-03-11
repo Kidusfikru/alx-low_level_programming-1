@@ -2,21 +2,22 @@
 
 /**
   * main - print alphabet in lowercase except e and q
-  *   
+  *
   * Return: zero
   */
 
-int main (void)
+int main(void)
 {
 	char ch1 = 'a';
-	for (ch1= 'a'; ch1 <= 'z'; ch1++)
+	
+	for (ch1 = 'a'; ch1 <= 'z'; ch1++)
 	{
-		if ( ch1 == 'e' || ch1 == 'q')
+		if (ch1 == 'e' || ch1 == 'q')
 		{
 			continue;
 		}
 		putchar(ch1);
-	} 
+	}
 	putchar('\n');
-  return (0);
+	return (0);
 }
