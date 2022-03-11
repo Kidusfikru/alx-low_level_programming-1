@@ -1,19 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
-  * main - print all single digit numbers of base 10 without char
+  * main - prints base ten digits without char
   *
   * Return: zero
   */
-
 int main(void)
 {
-	int num;
+	int i;
 
-	for (num = 0; num <= 9; num++)
-	{
-		putchar(num);
-	}
+	for (i = '0'; i <= '9'; i++)
+		putchar(i);
 	putchar('\n');
 	return (0);
 }
