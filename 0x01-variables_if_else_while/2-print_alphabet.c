@@ -2,7 +2,7 @@
 
 /**
   * main - print alphabet in lowercase
-  * 
+  *
   * Return: zero
   */
 
