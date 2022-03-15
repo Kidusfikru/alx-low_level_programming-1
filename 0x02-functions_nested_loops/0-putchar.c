@@ -1,4 +1,4 @@
-#include "printstring.h"
+#include "main.h"
 
 /**
   * main - printing a string
