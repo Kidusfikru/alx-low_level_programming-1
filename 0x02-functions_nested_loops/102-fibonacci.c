@@ -9,6 +9,7 @@ int main(void)
 {
 	int i;
 	long int num1, num2, a;
+
 	num1 = 1;
 	num2 = 2;
 	printf("%ld, %ld", num1, num2);
